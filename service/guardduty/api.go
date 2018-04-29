@@ -7875,6 +7875,27 @@ const (
 	DetectorStatusDisabled = "DISABLED"
 )
 
+// The status of the relationship between the member account and its master account.
+const (
+	// RelationshipStatusCreated is a Feedback enum value
+	RelationshipStatusCreated = "CREATED"
+
+	// RelationshipStatusInvited is a Feedback enum value
+	RelationshipStatusInvited = "INVITED"
+
+	// RelationshipStatusDisabled is a Feedback enum value
+	RelationshipStatusDisabled = "DISABLED"
+
+	// RelationshipStatusRemoved is a Feedback enum value
+	RelationshipStatusRemoved = "REMOVED"
+
+	// RelationshipStatusEmailVerificationInProgress is a Feedback enum value
+	RelationshipStatusEmailVerificationInProgress = "EMAILVERIFICATIONINPROGRESS"
+
+	// RelationshipStatusEmailVerificationFailed is a Feedback enum value
+	RelationshipStatusEmailVerificationFailed = "EMAILVERIFICATIONFAILED"
+)
+
 // Finding Feedback Value
 const (
 	// FeedbackUseful is a Feedback enum value
